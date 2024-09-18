@@ -1,0 +1,49 @@
+h1[class=header] {
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px red;
+    text-align: center;
+    background-color: aqua;
+    padding: 12px 18px;
+    text-decoration: underline;
+}
+
+input[type=text] {
+    width: 100%;
+    border: 2px solid rgb(41, 24, 24);
+    padding: 12px 20px;
+    margin: 12px 0px;
+    outline: none;
+}
+
+input[type=password] {
+    width: 100%;
+    border: 2px solid black;
+    padding: 12px 20px;
+    margin: 12px 0px;
+    outline: none;
+}
+
+input[type=button] {
+    width: 100%;
+    border: none;
+    padding: 12px 20px;
+    margin: 12px 0px;
+    background-color: #3CBC8D;
+    font-family: fantasy;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+input[type=text]:focus {
+    border: 2px solid red;
+}
+
+input[type=password]:focus {
+    border: 2px solid red;
+}
+
+input[type=button]:focus {
+    background-color: #008CBA;
+}
